@@ -14,6 +14,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
 // GET route (homepage/landing)
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
 
 // GET notes (notes *page*)
 
