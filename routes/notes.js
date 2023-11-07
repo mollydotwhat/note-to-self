@@ -13,7 +13,7 @@ const {
 notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
   });
-  
+
 // POST /api/notes (write to json, return object/new note. uuid needed here.)
 notes.post('/', (req, res) => {
     console.log(req.body);
@@ -49,5 +49,20 @@ notes.post('/', (req, res) => {
   
 
   // i think the delete route would be the only one that's write, because you don't want to overwrite the db.json each time. Adding this last.
+ note.delete('/:note_id', (req, res) => {
+    const noteId = req.params.note_id;
+    readFromFile('./db/db.json')
+      .then((data) => JSON.parse(data))
+      .then((json) => {
+        // new array minus specific note
+        const result = json.filter((note) => note.note_id !== noteId);
+  
+        // save array to the json
+        writeToFile('./db/db.json', result);
+  
+        // Respond to the DELETE request
+        res.json(`Item ${noteId} has been deleted 🗑️`);
+      });
+  });
 
   module.exports = notes;
