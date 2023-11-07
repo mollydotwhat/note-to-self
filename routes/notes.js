@@ -10,9 +10,10 @@ const {
 
   //methods go here
 // GET /api/notes (read json)
-notes.get('/notes', (req, res) => {
+notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
   });
+  
 // POST /api/notes (write to json, return object/new note. uuid needed here.)
 notes.post('/', (req, res) => {
     console.log(req.body);
