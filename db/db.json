@@ -7,5 +7,15 @@
         "title": "more notes",
         "text": "what's going where",
         "note_id": "9bdece40-15bf-4082-b28a-54abe6065aba"
+    },
+    {
+        "title": "something",
+        "text": "what do i fix to show the sidebar thing",
+        "note_id": "db3821f4-69a8-45e0-a052-b6a824c6fc1b"
+    },
+    {
+        "title": "filler",
+        "text": "not putting whole lorem ipsum in",
+        "note_id": "f55a629c-f80a-45c1-8736-ff1a44accbe2"
     }
 ]

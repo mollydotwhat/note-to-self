@@ -33,6 +33,20 @@ notes.post('/', (req, res) => {
     }
   });
 
+  //okay, maybe i DO need individual id get, even though it won't use its own page. Crashed nodemon, though.
+  notes.get('/:note_id', (req, res) => {
+    const noteId = req.params.note_id;
+    readFromFile('./db/db.json')
+      .then((data) => JSON.parse(data))
+      .then((json) => {
+        const result = json.filter((note) => note.note_id === noteId);
+        return result.length > 0
+          ? res.json(result)
+          : res.json('No note with that ID');
+      });
+  });
+  
+
   // i think the delete route would be the only one that's write, because you don't want to overwrite the db.json each time. Adding this last.
 
   module.exports = notes;

@@ -6,7 +6,7 @@ const notesRouter = require('./notes')
 
 const app = express();
 app.use('/notes', notesRouter); 
-// is this what's putting the extra /api in the path? removing to test
+
 
 
 module.exports = app;
