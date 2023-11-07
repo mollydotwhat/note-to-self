@@ -5,3 +5,9 @@ const {
     readAndAppend,
     writeToFile,
   } = require('../helpers/fsUtils');
+
+
+  //methods go here
+
+
+  module.exports = notes;
