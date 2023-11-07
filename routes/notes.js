@@ -11,7 +11,7 @@ const {
   //methods go here
 // GET /api/notes (read json)
 notes.get('/', (req, res) => {
-    readFromFile('./db/notes.json').then((data) => res.json(JSON.parse(data)));
+    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
   });
 // POST /api/notes (write to json, return object/new note. uuid needed here.)
 notes.post('/', (req, res) => {
@@ -26,7 +26,7 @@ notes.post('/', (req, res) => {
         note_id: uuidv4(),
       };
   
-      readAndAppend(newNote, './db/notes.json');
+      readAndAppend(newNote, './db/db.json');
       res.json(`Note added successfully`);
     } else {
       res.error('Error in adding note');
