@@ -13,6 +13,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
+app.use(express.static('public'));
+//was this what i needed to remember to make the sidebar work??
+
 // GET route (homepage/landing)
 app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))

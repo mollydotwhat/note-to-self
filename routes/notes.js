@@ -33,8 +33,8 @@ notes.post('/', (req, res) => {
     }
   });
 
-  //okay, maybe i DO need individual id get, even though it won't use its own page. Crashed nodemon, though.
-  notes.get('/:note_id', (req, res) => {
+  //okay, maybe i DO need individual id get, even though it won't use its own page. It's showing and EMPTY sidebar now. 
+  notes.get('/api/:note_id', (req, res) => {
     const noteId = req.params.note_id;
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
