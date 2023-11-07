@@ -49,7 +49,7 @@ notes.post('/', (req, res) => {
   
 
   // i think the delete route would be the only one that's write, because you don't want to overwrite the db.json each time. Adding this last.
- note.delete('/:note_id', (req, res) => {
+ notes.delete('/:note_id', (req, res) => {
     const noteId = req.params.note_id;
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
