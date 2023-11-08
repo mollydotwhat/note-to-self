@@ -12,6 +12,9 @@
 
 - Deploy the whole thing to Heroku.
 
-currently working on Heroku deployment requirement: https://note-to-self-routes-6f531153ee0a.herokuapp.com/
+### Application screenshots
+
+### Heroku Deployment address
+ https://note-to-self-routes-6f531153ee0a.herokuapp.com/
 
 <!-- apparently I have to wait a couple hours to see if it's functioning. -->
