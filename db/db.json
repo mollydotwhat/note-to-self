@@ -4,73 +4,13 @@
         "text": "Test text"
     },
     {
-        "title": "more notes",
-        "text": "what's going where",
-        "note_id": "9bdece40-15bf-4082-b28a-54abe6065aba"
+        "title": "Write something!",
+        "text": "I'm sure it's important.",
+        "note_id": "addf8245-3b73-43a5-9a6c-052c6964a610"
     },
     {
-        "title": "something",
-        "text": "what do i fix to show the sidebar thing",
-        "note_id": "db3821f4-69a8-45e0-a052-b6a824c6fc1b"
-    },
-    {
-        "title": "filler",
-        "text": "not putting whole lorem ipsum in",
-        "note_id": "f55a629c-f80a-45c1-8736-ff1a44accbe2"
-    },
-    {
-        "title": "filler",
-        "text": "not putting whole lorem ipsum in",
-        "note_id": "b9d28925-c625-494a-bba1-6b9ae6055e0f"
-    },
-    {
-        "title": "filler",
-        "text": "not putting whole lorem ipsum in",
-        "note_id": "53f1c210-194a-4dc9-b2c6-694d43bfbfeb"
-    },
-    {
-        "title": "ARGH",
-        "text": "not putting whole lorem ipsum in",
-        "note_id": "3a471735-737f-481f-89d3-916bf8f41f9e"
-    },
-    {
-        "title": "ARGH",
-        "text": "not putting whole lorem ipsum in",
-        "note_id": "83ad9c95-0d27-4498-bbc3-2c3d83ed1c95"
-    },
-    {
-        "title": "ARGH",
-        "text": "not putting whole lorem ipsum in",
-        "note_id": "8012feb5-c773-4db1-a60e-a2688e32f9f7"
-    },
-    {
-        "title": "cotton-eyed joe",
-        "text": "i stg the sidebar should be fetching these",
-        "note_id": "80fc013e-e6ba-4150-91bb-e204ec1254e8"
-    },
-    {
-        "title": "cotton-eyed joe",
-        "text": "i stg the sidebar should be fetching these",
-        "note_id": "3ce89f99-5a40-403f-b91c-abc364307397"
-    },
-    {
-        "title": "cotton-eyed joe",
-        "text": "i stg the sidebar should be fetching these",
-        "note_id": "c0cf8728-eac6-422b-af41-1f9442fd6765"
-    },
-    {
-        "title": "testingagain",
-        "text": "i stg the sidebar should be fetching these",
-        "note_id": "a2e24d07-2f4d-4998-af32-bed27d9d192d"
-    },
-    {
-        "title": "testingagain",
-        "text": "i stg the sidebar should be fetching these",
-        "note_id": "8c59de9a-2d68-48a9-9d0a-fc5faae394d8"
-    },
-    {
-        "title": "rgwer",
-        "text": "whert",
-        "note_id": "3a0bd4cd-f65c-4505-a716-b126252f1296"
+        "title": "Here's another one",
+        "text": "Pretend I put lorem ipsum in",
+        "note_id": "5adf0016-98d6-4f34-82dd-94c02ae05514"
     }
 ]
