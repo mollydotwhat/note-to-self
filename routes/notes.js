@@ -48,7 +48,7 @@ notes.post('/', (req, res) => {
   });
   
 
-  // i think the delete route would be the only one that's write, because you don't want to overwrite the db.json each time. Adding this last.
+  //this doesn't work yet, but I should upload this to github & try to set up Heroku first. I guess.
  notes.delete('/:note_id', (req, res) => {
     const noteId = req.params.note_id;
     readFromFile('./db/db.json')
